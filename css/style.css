@@ -1,0 +1,24 @@
+/* body {
+    overflow-x: hidden;
+  }
+}  */
+
+/*      HERO SECTION        */
+
+.hero-image{
+    max-height: 400px; 
+    object-fit: cover;
+}
+
+p.letra-ancha{
+    font-weight: bold;
+}
+
+/*      MEDIA QUERIES HERO SECTION       */
+
+@media (max-width: 768px) {
+    .hero-image {
+      height: 400px;
+      max-height: none;
+    }
+  }

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grupo Tu Casa - Real del Mar</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -33,8 +34,8 @@
       </ul>
       <!-- SEGUNDO MENÚ, Centrado en Mobile, a la derecha en-->
        <ul class="navbar-nav ms-auto text-center text-lg-end mx-lg-5 ">
-        <li class="nav-item "><a href="#" class="nav-link">Log in</a></li>
-        <li class="nav-item "><a href="#" class="nav-link">Create account</a></li>
+        <li class="nav-item "><a href="#" class="nav-link"><i class="fa-solid fa-user-tie"></i></a></li>
+        <li class="nav-item "><a href="#" class="nav-link"><i class="fa-solid fa-bag-shopping"></i></a></li>
         <li class="nav-item ">
           <span class="nav-link disabled">1-877-638-7848</span>  
         </li>
@@ -45,7 +46,7 @@
 
 <!-- Hero -->
 <section class="position-relative">
-    <img src="https://images.pexels.com/photos/15752366/pexels-photo-15752366.jpeg" class="img-fluid w-100 hero-image" alt="Vista aérea del mar en Baja California Sur">
+  <img src="img/playa.jpeg" class="img-fluid w-100 hero-image" alt="Vista aérea del mar en Baja California Sur">
   <div class="position-absolute translate-middle-y text-white top-50 start-0 px-4 px-lg-5 ">
     <h5 class="display-5 letra-ancha">Exclusividad y Plusvalía</h5>
     <p class="lead letra-ancha">Descubre la mejor opción para un terreno en real del mar, a solo 25 minutos del Ayuntamiento de San José del Cabo.</p>
@@ -56,63 +57,144 @@
 <!-- Exclusividad -->
 <section class="py-5 text-center position-relative">
   <h2>Categorías</h2>
-  
   <div class="container">
-    
     <img src="https://images.pexels.com/photos/15752366/pexels-photo-15752366.jpeg" class="img-fluid w-100 hero-image" alt="Vista aérea del mar en Baja California Sur">
     <div class="position-absolute translate-middle text-white top-50 start-50 px-4 px-lg-5">
-      <p>Aparta un terreno en la primer etapa del proyecto</p>
-      <p>Terrenos campestres de 250m cuadrados con vista al mar</p>
+      <p class="letra-ancha">Aparta un terreno en la primer etapa del proyecto</p>
+      <p class="letra-ancha">Terrenos campestres de 250m cuadrados con vista al mar</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="mt-5">Bienvenidos</h2>
+        <h3>Tu Casa Group Holdings LLC</h3>
+        <p>Grupo Tu Casa ® ofrece el más alto retorno de inversión Real del Mar, Cabo del Este, a solo 25 minutos de San José del Cabo, BCS.</p>
+        <a href="#" class="btn boton-geo btn-lg mt-3">Comprar</a>
+      </div>
+      <div class="col-md-6 position-relative mt-5">
+        <img src="img/terrenos-playa.jpeg" alt="terrenos en la playa" class="img-fluid w-100 hero-image">
+        <div class="position-absolute translate-middle-y top-50 fondo-morado">
+          <p class="text-white">350+</p>
+        </div>
+        <div class="position-absolute translate-middle-y top-50 texto-lotes">
+          <p class="text-white">Lotes a la venta</p>
+        </div>
+        <div class="position-absolute">
+          <p class="text-white">40 lotes ya vendidos</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Testimonios -->
+
 <section class="bg-light py-5">
   <div class="container">
     <h3 class="text-center mb-4">Testimonios</h3>
-    <div class="row">
-      <div class="col-md-6">
-        <blockquote class="blockquote">
-          <p>"La oportunidad que da Grupo Tu Casa ayudó a formar mi patrimonio en Real del Mar EST CAPE BEACH. ¡Recomendadísimo!"</p>
-          <footer class="blockquote-footer">Eduardo A.</footer>
-        </blockquote>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1: testimonios 1 y 2 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-6">
+              <blockquote class="blockquote text-center">
+                <label>⭐⭐⭐⭐⭐</label>
+                <p>"La oportunidad que da Grupo Tu Casa ayudó a formar mi patrimonio."</p>
+                <footer class="blockquote-footer">Eduardo A.</footer>
+                <img src="img/wera-cortada.png" class="img-fluid testimonial d-block mx-auto" alt="">
+              </blockquote>
+            </div>
+            <div class="col-md-6">
+              <blockquote class="blockquote text-center">
+                <label>⭐⭐⭐⭐⭐</label>
+                <p>"Gran confianza de parte del asesor. ¡Mil gracias!"</p>
+                <footer class="blockquote-footer">Erick L.</footer>
+                <img src="img/negrita-cortada.png" class="img-fluid testimonial d-block mx-auto" alt="">
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: testimonios 3 y 4 -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <blockquote class="blockquote text-center">
+                <label>⭐⭐⭐⭐⭐</label>
+                <p>"¡Increíble experiencia! El proceso fue fácil y rápido."</p>
+                <footer class="blockquote-footer">Lucía M.</footer>
+                <img src="img/negrita-cortada.png" class="img-fluid testimonial d-block mx-auto" alt="">
+              </blockquote>
+            </div>
+            <div class="col-md-6">
+              <blockquote class="blockquote text-center">
+                <label>⭐⭐⭐⭐⭐</label>
+                <p>"Servicio excepcional. Estoy muy feliz con mi compra."</p>
+                <footer class="blockquote-footer">Carlos R.</footer>
+                <img src="img/wera-cortada.png" class="img-fluid testimonial d-block mx-auto" alt="">
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-md-6">
-        <blockquote class="blockquote">
-          <p>"Gran confianza de parte del asesor. Me acompañó durante todo el proceso. ¡Mil gracias!"</p>
-          <footer class="blockquote-footer">Erick L.</footer>
-        </blockquote>
-      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
   </div>
 </section>
 
+
 <!-- Newsletter -->
-<section class="py-5 text-center">
-    <h4>Suscríbete a nuestro boletín</h4>
-    <div class="container">
-      <form class="row justify-content-center ">
-        <div class="col-md-6">
-          <input type="email" class="form-control mb-3" placeholder="Tu correo electrónico">
-          <button type="submit" class="btn btn-primary">Suscribirse</button>
-        </div>
-      </form>
-    </div>
-    
-</section>
+
 
 <!-- Contacto -->
-<footer class="bg-dark text-white py-4">
-  <img src="img/yate-mar.jpg" alt="Yate" class="img-fluid w-100" style="max-height: 400px;margin-top: -25px;">
-  <div class="container text-center">
-    <h5>Contacto</h5>
-    <p>+52 (624) 180-4693 | +1 (619) 802-8015</p>
-    <p>Calle Miguel Ángel Herrera, Lomas del, 23472 Cabo San Lucas, B.C.S.</p>
+<footer class="position-relative text-white">
+  <img src="img/yate.jpeg" alt="Yate" class="img-fluid w-100 hero-image">
+  <div class="container text-center position-absolute top-50">
+    <div class="row">
+      <div class="col-md-4 translate-middle-y">
+        <h5>Contacto</h5>
+        <p>Calle Miguel Ángel Herrera, Lomas del, 23472 Cabo San Lucas, B.C.S.</p>
+      </div>
+      <div class="col-md-4 translate-middle-y">
+        <h5>Contacts</h5>
+        <p>+52 (624) 180-4693 | +1 (619) 802-8015</p>
+        <p></p>
+      </div>
+      <div class="col-md-4 translate-middle-y">
+        <section class=" text-center">
+          <h5>Suscríbete a nuestro boletín</h4>
+          <div class="container">
+            <form class="row justify-content-center ">
+              <div class="col-md-12">
+                <input type="email" class="form-control mb-3 borde-formulario" placeholder="Tu correo electrónico">
+                <button type="submit" class="btn btn-dark">Suscribirse</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
   </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
 </body>
 </html>
 

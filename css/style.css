@@ -14,6 +14,25 @@ p.letra-ancha{
     font-weight: bold;
 }
 
+
+/*    SECCIÓN LOTES     */
+
+.boton-geo{
+  border: solid black 2px;
+}
+
+.fondo-morado{
+  background-color: blue;
+  font-weight: bold;
+  padding: 10px 50px;
+  margin-left: -50px;
+}
+
+.texto-lotes{
+  font-weight: bold;
+  margin-top: 50px;
+}
+
 /*      MEDIA QUERIES HERO SECTION       */
 
 @media (max-width: 768px) {
@@ -22,3 +41,17 @@ p.letra-ancha{
       max-height: none;
     }
   }
+
+/*    TESTIMONIALES   */
+
+.testimonial{
+  border-radius: 50%;
+  height: 100px;
+}
+
+/*    FOOTER    */
+.borde-formulario{
+  border: 1px solid black!important;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+  transition: box-shadow 0.3s ease;
+}

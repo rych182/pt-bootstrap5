@@ -55,8 +55,14 @@ p.letra-ancha{
   box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
   transition: box-shadow 0.3s ease;
 }
-
-
+/*
+.col-md-4{
+  border: 2px red solid;
+}
+*/
+.col-md-4 a{
+  text-decoration: none;
+}
 
 @media ((max-width: 768px)) {
   .margenes-footer{

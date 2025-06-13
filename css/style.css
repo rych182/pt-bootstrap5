@@ -3,6 +3,15 @@
   }
 }  */
 
+/*      Navbar        */
+
+
+@media (min-width: 325px) {
+    a.navbar-brand{
+      width: 10%;
+    }
+  }
+
 /*      HERO SECTION        */
 
 .hero-image{

@@ -22,7 +22,14 @@
 p.letra-ancha{
     font-weight: bold;
 }
+/*      MEDIA QUERIES HERO SECTION       */
 
+@media (max-width: 768px) {
+    .hero-image {
+      height: 400px;
+      max-height: none;
+    }
+  }
 
 /*    SECCIÓN LOTES     */
 
@@ -41,15 +48,6 @@ p.letra-ancha{
   font-weight: bold;
   margin-top: 50px;
 }
-
-/*      MEDIA QUERIES HERO SECTION       */
-
-@media (max-width: 768px) {
-    .hero-image {
-      height: 400px;
-      max-height: none;
-    }
-  }
 
 /*    TESTIMONIALES   */
 
@@ -77,4 +75,9 @@ p.letra-ancha{
   .margenes-footer{
     margin-top: -100px;
   }
+}
+
+/*    PROPIEDADES     */
+.metro{
+  width: 5%;
 }
